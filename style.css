@@ -71,10 +71,10 @@ a{
     text-decoration: none;
 }
 .footer{
-    position: absolute;
-    bottom: -50%;
-    width: 100%;
     background-color: rgb(19, 15, 75);
     padding: 20px;
     color: white;
+    position: absolute;
+    bottom: -50%;
+    width: 100%;
 }
