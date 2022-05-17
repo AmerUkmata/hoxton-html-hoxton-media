@@ -35,29 +35,21 @@ span {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
 }
-footer{
-    background-color: rgb(19, 15, 75);
-    padding: 20px;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 .second-line{
     margin: 0px 30px;
 }
 img{
     width: 150px;
-    height: 100px;
+    height: 85px;
     border: 5px;
     padding: 20px;
     border-radius: 20%;
-    inline-size: 200px;
+    inline-size: 150px;
     margin: 0px 20px;
     box-shadow: 2px 2px 2px rgb(179, 176, 176);
 }
 .buttons{
-    margin: 30px;
+    margin: 20px;
     display: inline-block;
 }
 .subscription-button{
@@ -77,4 +69,12 @@ strong{
 a{
     color: white;
     text-decoration: none;
+}
+.footer{
+    position: absolute;
+    bottom: -50%;
+    width: 100%;
+    background-color: rgb(19, 15, 75);
+    padding: 20px;
+    color: white;
 }
